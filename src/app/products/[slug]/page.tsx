@@ -203,17 +203,17 @@ export default function ProductDetailPage({ params }: PageProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           <CategoryCard
             title="Headphones"
-            image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop"
+            image="/images/product1-headphones.png"
             link="/category/headphones"
           />
           <CategoryCard
             title="Speakers"
-            image="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=300&fit=crop"
+            image="/images/product2-speaker.png"
             link="/category/speakers"
           />
           <CategoryCard
             title="Earphones"
-            image="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=300&h=300&fit=crop"
+            image="/images/product3-speaker.png"
             link="/category/earphones"
           />
         </div>

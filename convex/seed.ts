@@ -19,9 +19,9 @@ export const seedProducts = mutation({
         slug: "xx99-mark-two-headphones",
         category: "headphones" as const,
         categoryImage: {
-          mobile: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-          tablet: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
-          desktop: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop"
+          mobile: "/images/heroimage.png",
+          tablet: "/images/heroimage.png",
+          desktop: "/images/heroimage.png"
         },
         new: true,
         price: 2999,
@@ -56,27 +56,27 @@ export const seedProducts = mutation({
             slug: "xx99-mark-one-headphones",
             name: "XX99 Mark I",
             image: {
-              mobile: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800&h=800&fit=crop"
+              mobile: "/images/product1-headphones.png",
+              tablet: "/images/product1-headphones.png",
+              desktop: "/images/product1-headphones.png"
             }
           },
           {
             slug: "xx59-headphones",
             name: "XX59 Headphones",
             image: {
-              mobile: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800&h=800&fit=crop"
+              mobile: "/images/xx59-headphones.png",
+              tablet: "/images/xx59-headphones.png",
+              desktop: "/images/xx59-headphones.png"
             }
           },
           {
             slug: "zx9-speaker",
             name: "ZX9 Speaker",
             image: {
-              mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop"
+              mobile: "/images/zx9-speaker.png",
+              tablet: "/images/zx9-speaker.png",
+              desktop: "/images/zx9-speaker.png"
             }
           }
         ]
@@ -86,9 +86,9 @@ export const seedProducts = mutation({
         slug: "xx99-mark-one-headphones",
         category: "headphones" as const,
         categoryImage: {
-          mobile: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=400&fit=crop",
-          tablet: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-          desktop: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800&h=800&fit=crop"
+          mobile: "/images/product1-headphones.png",
+          tablet: "/images/product1-headphones.png",
+          desktop: "/images/product1-headphones.png"
         },
         new: false,
         price: 1750,
@@ -122,27 +122,27 @@ export const seedProducts = mutation({
             slug: "xx99-mark-two-headphones",
             name: "XX99 Mark II",
             image: {
-              mobile: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop"
+              mobile: "/images/heroimage.png",
+              tablet: "/images/heroimage.png",
+              desktop: "/images/heroimage.png"
             }
           },
           {
             slug: "xx59-headphones",
             name: "XX59 Headphones",
             image: {
-              mobile: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800&h=800&fit=crop"
+              mobile: "/images/xx59-headphones.png",
+              tablet: "/images/xx59-headphones.png",
+              desktop: "/images/xx59-headphones.png"
             }
           },
           {
             slug: "zx9-speaker",
             name: "ZX9 Speaker",
             image: {
-              mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop"
+              mobile: "/images/zx9-speaker.png",
+              tablet: "/images/zx9-speaker.png",
+              desktop: "/images/zx9-speaker.png"
             }
           }
         ]
@@ -152,9 +152,9 @@ export const seedProducts = mutation({
         slug: "xx59-headphones",
         category: "headphones" as const,
         categoryImage: {
-          mobile: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=400&h=400&fit=crop",
-          tablet: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop",
-          desktop: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800&h=800&fit=crop"
+          mobile: "/images/xx59-headphones.png",
+          tablet: "/images/xx59-headphones.png",
+          desktop: "/images/xx59-headphones.png"
         },
         new: false,
         price: 899,
@@ -188,27 +188,27 @@ export const seedProducts = mutation({
             slug: "xx99-mark-two-headphones",
             name: "XX99 Mark II",
             image: {
-              mobile: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop"
+              mobile: "/images/heroimage.png",
+              tablet: "/images/heroimage.png",
+              desktop: "/images/heroimage.png"
             }
           },
           {
             slug: "xx99-mark-one-headphones",
             name: "XX99 Mark I",
             image: {
-              mobile: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800&h=800&fit=crop"
+              mobile: "/images/product1-headphones.png",
+              tablet: "/images/product1-headphones.png",
+              desktop: "/images/product1-headphones.png"
             }
           },
           {
             slug: "zx9-speaker",
             name: "ZX9 Speaker",
             image: {
-              mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop"
+              mobile: "/images/zx9-speaker.png",
+              tablet: "/images/zx9-speaker.png",
+              desktop: "/images/zx9-speaker.png"
             }
           }
         ]
@@ -218,9 +218,9 @@ export const seedProducts = mutation({
         slug: "zx9-speaker",
         category: "speakers" as const,
         categoryImage: {
-          mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-          tablet: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
-          desktop: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop"
+          mobile: "/images/zx9-speaker.png",
+          tablet: "/images/zx9-speaker.png",
+          desktop: "/images/zx9-speaker.png"
         },
         new: true,
         price: 4500,
@@ -255,27 +255,27 @@ export const seedProducts = mutation({
             slug: "zx7-speaker",
             name: "ZX7 Speaker",
             image: {
-              mobile: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=800&fit=crop"
+              mobile: "/images/speaker-zx7.png",
+              tablet: "/images/speaker-zx7.png",
+              desktop: "/images/speaker-zx7.png"
             }
           },
           {
             slug: "xx99-mark-one-headphones",
             name: "XX99 Mark I",
             image: {
-              mobile: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800&h=800&fit=crop"
+              mobile: "/images/product1-headphones.png",
+              tablet: "/images/product1-headphones.png",
+              desktop: "/images/product1-headphones.png"
             }
           },
           {
             slug: "xx59-headphones",
             name: "XX59 Headphones",
             image: {
-              mobile: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800&h=800&fit=crop"
+              mobile: "/images/xx59-headphones.png",
+              tablet: "/images/xx59-headphones.png",
+              desktop: "/images/xx59-headphones.png"
             }
           }
         ]
@@ -285,9 +285,9 @@ export const seedProducts = mutation({
         slug: "zx7-speaker",
         category: "speakers" as const,
         categoryImage: {
-          mobile: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400&h=400&fit=crop",
-          tablet: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=600&h=600&fit=crop",
-          desktop: "https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=800&fit=crop"
+          mobile: "/images/speaker-zx7.png",
+          tablet: "/images/speaker-zx7.png",
+          desktop: "/images/speaker-zx7.png"
         },
         new: false,
         price: 3500,
@@ -302,9 +302,9 @@ export const seedProducts = mutation({
         ],
         gallery: {
           first: {
-            mobile: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
-            tablet: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=600&fit=crop",
-            desktop: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop"
+            mobile: "/images/speaker-zx7.png",
+            tablet: "/images/speaker-zx7.png",
+            desktop: "/images/speaker-zx7.png"
           },
           second: {
             mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
@@ -322,27 +322,27 @@ export const seedProducts = mutation({
             slug: "zx9-speaker",
             name: "ZX9 Speaker",
             image: {
-              mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop"
+              mobile: "/images/zx9-speaker.png",
+              tablet: "/images/zx9-speaker.png",
+              desktop: "/images/zx9-speaker.png"
             }
           },
           {
             slug: "xx99-mark-one-headphones",
             name: "XX99 Mark I",
             image: {
-              mobile: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800&h=800&fit=crop"
+              mobile: "/images/product1-headphones.png",
+              tablet: "/images/product1-headphones.png",
+              desktop: "/images/product1-headphones.png"
             }
           },
           {
             slug: "xx59-headphones",
             name: "XX59 Headphones",
             image: {
-              mobile: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800&h=800&fit=crop"
+              mobile: "/images/xx59-headphones.png",
+              tablet: "/images/xx59-headphones.png",
+              desktop: "/images/xx59-headphones.png"
             }
           }
         ]
@@ -352,9 +352,9 @@ export const seedProducts = mutation({
         slug: "yx1-earphones",
         category: "earphones" as const,
         categoryImage: {
-          mobile: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=400&fit=crop",
-          tablet: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop",
-          desktop: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&h=800&fit=crop"
+          mobile: "/images/YX1-earphones.png",
+          tablet: "/images/YX1-earphones.png",
+          desktop: "/images/YX1-earphones.png"
         },
         new: true,
         price: 599,
@@ -389,27 +389,27 @@ export const seedProducts = mutation({
             slug: "xx99-mark-one-headphones",
             name: "XX99 Mark I",
             image: {
-              mobile: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800&h=800&fit=crop"
+              mobile: "/images/product1-headphones.png",
+              tablet: "/images/product1-headphones.png",
+              desktop: "/images/product1-headphones.png"
             }
           },
           {
             slug: "xx59-headphones",
             name: "XX59 Headphones",
             image: {
-              mobile: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=800&h=800&fit=crop"
+              mobile: "/images/xx59-headphones.png",
+              tablet: "/images/xx59-headphones.png",
+              desktop: "/images/xx59-headphones.png"
             }
           },
           {
             slug: "zx9-speaker",
             name: "ZX9 Speaker",
             image: {
-              mobile: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
-              tablet: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
-              desktop: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop"
+              mobile: "/images/zx9-speaker.png",
+              tablet: "/images/zx9-speaker.png",
+              desktop: "/images/zx9-speaker.png"
             }
           }
         ]

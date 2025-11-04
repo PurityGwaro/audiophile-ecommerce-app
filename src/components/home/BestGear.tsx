@@ -19,7 +19,7 @@ export default function BestGear() {
         </div>
         <div className="order-1 lg:order-2 relative h-80 lg:h-[560px] rounded-lg overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=800&fit=crop"
+            src="/images/bestgear-image.png"
             alt="Person listening to audio"
             fill
             className="object-cover"
