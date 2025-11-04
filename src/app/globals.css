@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-manrope: 'Manrope', sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-manrope);
+    background-color: #FAFAFA;
+    color: #000000;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-container mx-auto px-6 md:px-10 lg:px-0;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-light text-white font-bold py-4 px-8 transition-colors duration-200 uppercase text-subtitle tracking-wider;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-secondary hover:bg-secondary hover:text-white text-secondary font-bold py-4 px-8 transition-colors duration-200 uppercase text-subtitle tracking-wider;
+  }
+
+  .btn-tertiary {
+    @apply text-secondary hover:text-primary font-bold uppercase text-subtitle tracking-wider inline-flex items-center gap-3 transition-colors duration-200;
+  }
+
+  .input-field {
+    @apply w-full px-6 py-4 border border-medium-gray rounded-lg focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary text-body font-bold;
+  }
+
+  .input-error {
+    @apply border-error focus:border-error focus:ring-error;
+  }
+
+  .error-message {
+    @apply text-error text-xs mt-1 font-medium;
+  }
+}
