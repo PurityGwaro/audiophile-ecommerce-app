@@ -201,6 +201,10 @@ Product structure:
 }
 ```
 
+### Successful Email View
+<img width="494" height="820" alt="image" src="https://github.com/user-attachments/assets/4b422069-dda5-428b-8501-d8d18aa73f5d" />
+
+
 ## Troubleshooting
 
 ### Convex connection issues
